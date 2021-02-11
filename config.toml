@@ -1,0 +1,78 @@
+baseURL = "https://www.UtahCountyBees.com"
+languageCode = "en-us"
+title = "UtahCountyBees"
+theme = "universal"
+
+# Define the number of posts per page
+paginate = 2
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    identifier="home"
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "FAQ"
+    name = "FAQ"
+    url  = "/faq/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "contact"
+    name = "Contact US"
+    url  = "/contact/"
+    weight = 3
+
+# Top bar social links menu
+
+[[menu.topbar]]
+    weight = 1
+    name = "phone"
+    url = "tel:801-734-9481"
+    pre = "<i class='fas fa-2x fa-mobile-alt'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "Facebook"
+    url = "https://www.facebook.com/groups/230607091341050"
+    pre = "<i class='fab fa-2x fa-facebook'></i>" 
+
+[[menu.topbar]]
+    weight = 3
+    name = "Email"
+    url = "mailto:swarm@utahcountybees.com"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
+
+
+
+# Top par contact us
+[params.topbar]
+    enable = true
+    text = "<p>Call or Text us ----------></p>"
+
+[params.features]
+    enable = true
+
+[params.carousel]
+    enable = true	
+	
+[params]
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "green"
+	logo = "img/logo2.png"
+	logo_small = "img/logo2.png"
+
+    about_us = "<p>Just a few local beekeepers from Utah County that want to save the bees.</p>"
+    copyright = "Copyright (c) 2014 - 2021, UtahCountyBees; all rights reserved."
+
+    # Format dates with Go's time formatting
+    date_format = "January 13, 2021"
+    
+	address = """<p class="text-uppercase"><strong>UtahCountyBees.com</strong>
+        <br>Serving Spanish Fork, Springville, Salem, Payson, Santaquin, Provo, Orem</p>"""
