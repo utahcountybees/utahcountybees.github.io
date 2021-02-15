@@ -1,7 +1,12 @@
 baseURL = "https://www.UtahCountyBees.com"
-languageCode = "en-us"
 title = "UtahCountyBees"
 theme = "universal"
+
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+
+enableRobotsTXT = true
+canonifyURLs = true
 
 # Define the number of posts per page
 paginate = 2
@@ -37,13 +42,13 @@ paginate = 2
     pre = "<i class='fas fa-2x fa-mobile-alt'></i>"
 
 [[menu.topbar]]
-    weight = 2
+    weight = 3
     name = "Facebook"
     url = "https://www.facebook.com/groups/230607091341050"
     pre = "<i class='fab fa-2x fa-facebook'></i>" 
 
 [[menu.topbar]]
-    weight = 3
+    weight = 2
     name = "Email"
     url = "mailto:swarm@utahcountybees.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
@@ -63,16 +68,25 @@ paginate = 2
 	
 [params]
 
+	author = "UtahCountyBees"
+	facebook = "https://www.facebook.com/groups/230607091341050"
+	sitename = "Utah County Bees - Report a Swarm"
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "green"
-	logo = "img/logo2.png"
-	logo_small = "img/logo2.png"
-
-    about_us = "<p>Just a few local beekeepers from Utah County that want to save the bees.</p>"
+	
+	logo = "img/logo6.png"
+	logo_small = "img/logo6.png"
+	
+    about_us = "<p>Just a few local beekeepers from Utah County that want to save some honeybees.</p>"
     copyright = "Copyright (c) 2014 - 2021, UtahCountyBees; all rights reserved."
-
     # Format dates with Go's time formatting
     date_format = "January 13, 2021"
     
 	address = """<p class="text-uppercase"><strong>UtahCountyBees.com</strong>
         <br>Serving Spanish Fork, Springville, Salem, Payson, Santaquin, Provo, Orem</p>"""
+		
+[languages]	
+	[languages.en]
+		languageName = "English"
+		languageCode = "en-us"
+		weight = "1"
