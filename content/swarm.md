@@ -1,13 +1,15 @@
 +++
 title = "Free HoneyBee Swarm Removal"
-description = "Frequently asked questions"
-keywords = ["FAQ","How do I","questions","what if"]
+id= "swarm"
+description = "Report a Swarm"
+keywords = ["Report a Swarm","honeybees","what if"]
 +++
 
-## Call or Text us
+### Call or Text us
 ## [801-734-9481](tel:8017349481)
 
-**Our Swarm Removal is 100% free.** You've found honeybees you don't want and we want to give them a new safe home. It's a win/win.
+### **Our Honeybee Swarm Removal is 100% free.** 
+You've found honeybees you don't want and we want to give them a new safe home. It's a win/win.
 
 ### 1. Contact a local beekeeper (like us)
 
