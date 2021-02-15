@@ -16,5 +16,7 @@ While bees are swarming, they are usually docile, however we recommend you leave
 4. We'll let you know when we arrive and you can watch from a safe distance while we re-home the bees.
 
 
+[this link](mailto:bergerbr@gmail.com?subject=Swarm-%20)
+
 
 

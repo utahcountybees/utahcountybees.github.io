@@ -58,7 +58,7 @@ paginate = 2
 # Top par contact us
 [params.topbar]
     enable = true
-    text = "<p>Call or Text us ----------></p>"
+    text = "Call or Text us --------->"
 
 [params.features]
     enable = true
@@ -74,8 +74,8 @@ paginate = 2
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "green"
 	
-	logo = "img/logo6.png"
-	logo_small = "img/logo6.png"
+	logo = "img/logo.png"
+	logo_small = "img/logo.png"
 	
     about_us = "<p>Just a few local beekeepers from Utah County that want to save some honeybees.</p>"
     copyright = "Copyright (c) 2014 - 2021, UtahCountyBees; all rights reserved."
