@@ -78,7 +78,7 @@ paginate = 2
 	facebook = "https://www.facebook.com/groups/230607091341050"
 	sitename = "Utah County Bees - Report a Swarm"
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "green"
+    style = "blue"
 	
 	logo = "img/logo.png"
 	logo_small = "img/logo.png"
