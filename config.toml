@@ -34,7 +34,7 @@ paginate = 2
     weight = 3
 
 [[menu.main]]
-    identifier = "contact"
+    identifier = "honey"
     name = "Local Honey"
     url  = "/honey/"
     weight = 4
