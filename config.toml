@@ -33,6 +33,12 @@ paginate = 2
     url  = "/contact/"
     weight = 3
 
+[[menu.main]]
+    identifier = "contact"
+    name = "Local Honey"
+    url  = "/honey/"
+    weight = 4
+
 # Top bar social links menu
 
 [[menu.topbar]]
