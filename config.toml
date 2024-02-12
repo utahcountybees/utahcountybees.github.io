@@ -78,7 +78,7 @@ paginate = 2
 	logo_small = "img/logo.png"
 	
     about_us = "<p>Just a few local beekeepers from Utah County that want to save some honeybees.</p>"
-    copyright = "Copyright (c) 2014 - 2021, UtahCountyBees; all rights reserved."
+    copyright = "Copyright (c) 2014 - 2024, UtahCountyBees; all rights reserved."
     # Format dates with Go's time formatting
     date_format = "January 13, 2021"
     
