@@ -8,8 +8,8 @@ DefaultContentLanguage = "en"
 enableRobotsTXT = true
 canonifyURLs = true
 
-# Define the number of posts per page
-paginate = 2
+[pagination]
+pagerSize = 2  # use your original paginate value here
 
 [menu]
 
