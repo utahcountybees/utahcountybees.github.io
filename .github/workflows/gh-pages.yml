@@ -28,7 +28,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-           extended: true    # Uncomment if you need SCSS processing
+          extended: true    # Uncomment if you need SCSS processing
 
       - name: Build
         run: hugo --minify
