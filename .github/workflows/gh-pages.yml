@@ -1,12 +1,10 @@
-name: GitHub Pages
+name: github pages
 
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
-  workflow_dispatch:    # Allow manual triggers
+      - main
 
-# Sets permissions of the GITHUB_TOKEN
 permissions:
   contents: write
   pages: write
@@ -15,32 +13,25 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4    # Updated from v2
+      - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true
+          fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          extended: true    # Uncomment if you need SCSS processing
+          extended: true
 
       - name: Build
         run: hugo --minify
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './public'    # Hugo's output directory
-          
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          force_orphan: true
