@@ -2,8 +2,9 @@ weight: 1
 title: "Report a Swarm"
 description: >
 <style>
-    a[href^="tel:"]:visited {
+    a[href^="tel:"] {
       color: white;
+      text-decoration: none;
     }
   </style>
   <ul class="list-style-none">
