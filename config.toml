@@ -35,7 +35,7 @@ pagerSize = 2  # use your original paginate value here
 
 [[menu.main]]
     identifier = "honey"
-    name = "Local Honey"
+    name = "Buy Local Honey"
     url  = "/honey/"
     weight = 4
 
@@ -74,7 +74,7 @@ pagerSize = 2  # use your original paginate value here
 	
 [params]
 
-	author = "UtahCountyBees"
+	author = "Utah County Bees"
 	facebook = "https://www.facebook.com/groups/230607091341050"
 	sitename = "Utah County Bees - Report a Swarm"
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
