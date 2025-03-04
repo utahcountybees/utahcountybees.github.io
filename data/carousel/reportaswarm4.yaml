@@ -1,16 +1,10 @@
 weight: 1
 title: "Report a Swarm"
-description:>
-<style>
-    a[href^="tel:"] {
-      color: white;
-      text-decoration: none;
-    }
-  </style>
+description: >
   <ul class="list-style-none">
     <li>Free Honeybee Swarm Removal</li>
     <li>Call or Text us</li>
-    <li><a href="tel:801-734-9481">801-734-9481</a></li>
+    <li>801-734-9481</li>
   </ul>
 image: "img/carousel/swarm4.jpg"
 
