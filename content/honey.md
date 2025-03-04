@@ -10,7 +10,7 @@ keywords = ["Raw honey","local honey","honey"]
 
 ### **Local Raw honey for sale** 
 ## Pints ($13) and Quarts for sale ($25).  
-We typically extract honey once or twice a year, depending on the year and hives. 
+### We typically extract honey once or twice a year, depending on the year and hives. 
 
 ### Hives are located in Spanish Fork - never shipped out of Utah.
 
